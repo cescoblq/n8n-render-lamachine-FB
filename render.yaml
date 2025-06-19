@@ -9,14 +9,21 @@ services:
     autoDeploy: true
     envVars:
       - key: DB_TYPE
+        value:
       - key: DB_POSTGRESDB_HOST
+        value:
       - key: DB_POSTGRESDB_PORT
+        value:
       - key: DB_POSTGRESDB_DATABASE
+        value:
       - key: DB_POSTGRESDB_USER
+        value:
       - key: DB_POSTGRESDB_PASSWORD
+        value:
       - key: DB_POSTGRESDB_SSL
         value: "true"
       - key: N8N_ENCRYPTION_KEY
+        value:
       - key: N8N_DEFAULT_LOCALE
         value: fr
       - key: N8N_LOG_LEVEL
@@ -26,6 +33,7 @@ services:
       - key: TZ
         value: Europe/Paris
       - key: WEBHOOK_URL
+        value:
       - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
         value: "true"
       - key: N8N_BASIC_AUTH_ACTIVE
