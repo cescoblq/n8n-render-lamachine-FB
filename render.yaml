@@ -9,7 +9,7 @@ services:
     autoDeploy: true
     envVars:
       - key: DB_POSTGRESDB_URI
-        value: postgresql://neondb_owner:npg_Pfar6wREh8MW@ep-young-boat-a9ivou3k-pooler.gwc.azure.neon.tech/neondb?sslmode=require
+        value: postgres://neondb_owner:npg_Pfar6wREh8MW@ep-young-boat-a9ivou3k-pooler.gwc.azure.neon.tech/neondb?sslmode=require
       - key: DB_TYPE
         value: postgresdb
       - key: N8N_ENCRYPTION_KEY
