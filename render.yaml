@@ -11,7 +11,7 @@ services:
       - key: DB_POSTGRESDB_URI
         value: postgres://neondb_owner:npg_Pfar6wREh8MW@ep-young-boat-a9ivou3k-pooler.gwc.azure.neon.tech/neondb?sslmode=require
       - key: DB_TYPE
-        value: postgresdb
+        value: postgres
       - key: N8N_ENCRYPTION_KEY
         value: dZaP9YS0RyQQLKjwxEEuBLy3C6+U9SiNrgQmk9xyXGg=
       - key: N8N_DEFAULT_LOCALE
