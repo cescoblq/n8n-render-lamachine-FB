@@ -9,21 +9,14 @@ services:
     autoDeploy: true
     envVars:
       - key: DB_TYPE
-        value: postgresdb
       - key: DB_POSTGRESDB_HOST
-        value: ep-young-boat-a9ivou3k-pooler.gwc.azure.neon.tech
       - key: DB_POSTGRESDB_PORT
-        value: "5432"
       - key: DB_POSTGRESDB_DATABASE
-        value: neondb
       - key: DB_POSTGRESDB_USER
-        value: neondb_owner
       - key: DB_POSTGRESDB_PASSWORD
-        value: npg_Pfar6wREh8MW
       - key: DB_POSTGRESDB_SSL
         value: "true"
       - key: N8N_ENCRYPTION_KEY
-        value: dZaP9YS0RyQQLKjwxEEuBLy3C6+U9SiNrgQmk9xyXGg=
       - key: N8N_DEFAULT_LOCALE
         value: fr
       - key: N8N_LOG_LEVEL
@@ -33,7 +26,6 @@ services:
       - key: TZ
         value: Europe/Paris
       - key: WEBHOOK_URL
-        value: https://n8n-ajjf.onrender.com/
       - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
         value: "true"
       - key: N8N_BASIC_AUTH_ACTIVE
