@@ -28,7 +28,5 @@ services:
         value: "true"
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
-      - key: N8N_BASIC_AUTH_USER
-        value: admin
-      - key: N8N_BASIC_AUTH_PASSWORD
-        value: unmotdepassefort
+     - key: N8N_LOG_LEVEL
+        value: debug
